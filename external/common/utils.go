@@ -24,8 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-jose/go-jose/v3"
-	"github.com/konveyor/move2kube-api/external/types"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/sirupsen/logrus"
 )
 

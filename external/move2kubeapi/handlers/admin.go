@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/konveyor/move2kube-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
 )
 
 // HandleGetAccessToken handles access token requests

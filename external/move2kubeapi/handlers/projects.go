@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/google/uuid"
 	"github.com/gorilla/mux"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/types"
 )
 
 // HandleListProjects handles listing projects

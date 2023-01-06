@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/gorilla/mux"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/types"
 )
 
 // HandleGetQuestion handles getting the next question of an ongoing transformation

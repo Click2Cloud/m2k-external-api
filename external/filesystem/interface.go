@@ -19,7 +19,7 @@ package filesystem
 import (
 	"io"
 
-	"github.com/konveyor/move2kube-api/external/types"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 )
 
 // IFileSystem defines an interface that can manage Move2Kube workspaces and projects

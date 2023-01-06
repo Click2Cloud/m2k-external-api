@@ -3,8 +3,8 @@ package handlers
 import (
 	_ "database/sql"
 	"fmt"
-	"github.com/konveyor/move2kube-api/database"
-	"github.com/konveyor/move2kube-api/external/types"
+	"github.com/Click2Cloud/m2k-external-api/database"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 )
 
 func insertWorkspace(reqWorkspace types.Workspace) error {

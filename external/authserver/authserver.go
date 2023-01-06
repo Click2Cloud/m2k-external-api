@@ -29,11 +29,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Nerzal/gocloak/v10"
-	"github.com/go-jose/go-jose/v3"
-	"github.com/go-resty/resty/v2"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/types"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cast"

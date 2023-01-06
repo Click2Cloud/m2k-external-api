@@ -26,10 +26,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Click2Cloud/m2k-external-api/assets"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/move2kubeapi/handlers"
 	"github.com/gorilla/mux"
-	"github.com/konveyor/move2kube-api/assets"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/move2kubeapi/handlers"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
 )

@@ -22,11 +22,11 @@ import (
 	"path"
 	"strings"
 
+	"github.com/Click2Cloud/m2k-external-api/external/authserver"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/sessions"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/google/uuid"
-	"github.com/konveyor/move2kube-api/external/authserver"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/sessions"
-	"github.com/konveyor/move2kube-api/external/types"
 	_logrus "github.com/sirupsen/logrus"
 )
 

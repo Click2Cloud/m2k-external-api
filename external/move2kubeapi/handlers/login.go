@@ -23,10 +23,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/konveyor/move2kube-api/external/authserver"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/sessions"
-	"github.com/konveyor/move2kube-api/external/types"
+	"github.com/Click2Cloud/m2k-external-api/external/authserver"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/sessions"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 )
 
 // HandleLogin logs the user in and gets the authorization code.

@@ -22,10 +22,10 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/konveyor/move2kube-api/external/authserver"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/filesystem"
-	"github.com/konveyor/move2kube-api/external/sessions"
+	"github.com/Click2Cloud/m2k-external-api/external/authserver"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/filesystem"
+	"github.com/Click2Cloud/m2k-external-api/external/sessions"
 	"github.com/sirupsen/logrus"
 )
 

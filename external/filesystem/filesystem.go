@@ -35,16 +35,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/go-resty/resty/v2"
-	"github.com/konveyor/move2kube-api/cmd/version"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/types"
-	"github.com/mholt/archiver/v3"
+	"github.com/Click2Cloud/m2k-external-api/cmd/version"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/phayes/freeport"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
 	bolt "go.etcd.io/bbolt"
-	"gopkg.in/yaml.v3"
 )
 
 const (

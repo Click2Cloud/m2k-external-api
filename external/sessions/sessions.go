@@ -28,10 +28,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/Click2Cloud/m2k-external-api/external/authserver"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/gorilla/sessions"
-	"github.com/konveyor/move2kube-api/external/authserver"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/types"
 	"github.com/sirupsen/logrus"
 )
 

@@ -23,10 +23,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Nerzal/gocloak/v10"
+	"github.com/Click2Cloud/m2k-external-api/external/common"
+	"github.com/Click2Cloud/m2k-external-api/external/types"
 	"github.com/gorilla/mux"
-	"github.com/konveyor/move2kube-api/external/common"
-	"github.com/konveyor/move2kube-api/external/types"
 	"github.com/sirupsen/logrus"
 )
 
